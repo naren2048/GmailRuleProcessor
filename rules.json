@@ -1,0 +1,14 @@
+[
+    {
+        "conditions": [
+            {
+                "field_name": "sender",
+                "predicate": "contains",
+                "value": "foundit"
+            }
+        ],
+        "overall_predicate": "All",
+        "actions": [ "mark_as_unread"],
+        "folder": "Job"
+    }
+]
