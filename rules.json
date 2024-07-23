@@ -4,11 +4,23 @@
             {
                 "field_name": "sender",
                 "predicate": "contains",
-                "value": "foundit"
+                "value": "Medium"
             }
         ],
         "overall_predicate": "All",
-        "actions": [ "mark_as_unread"],
+        "actions": [ "mark_as_read"],
         "folder": "Job"
+    },
+    {
+        "conditions": [
+            {
+                "field_name": "sender",
+                "predicate": "contains",
+                "value": "Quora"
+            }
+        ],
+        "overall_predicate": "All",
+        "actions": [ "move_message"],
+        "folder": "Quora"
     }
 ]

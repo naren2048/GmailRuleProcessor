@@ -1,0 +1,18 @@
+[
+    {
+        "conditions": [
+            {"field_name": "sender", "predicate": "equals", "value": "test@example.com"}
+        ],
+        "overall_predicate": "All",
+        "actions": ["move_message"],
+        "folder": "Test Folder"
+    },
+    {
+        "conditions": [
+            {"field_name": "subject", "predicate": "contains", "value": "urgent"}
+        ],
+        "overall_predicate": "Any",
+        "actions": ["delete_message"],
+        "folder": "Test Folder"
+    }
+]
